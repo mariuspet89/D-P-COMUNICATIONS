@@ -1,0 +1,858 @@
+* {
+     padding: 0;
+     /* outline: red  solid 1px;  */ /* help for debugging*/
+}
+
+
+ body {
+     margin: 0px;
+     padding: 0px;
+     width: 100%;
+     
+}
+
+.page_width {
+     width: 1300px;
+     margin: 0 auto; /* centrat pe mijloc */
+     position: relative; /* asa functioneaza ok divurile din interior cu position absolute; */
+}
+
+.Rectangle1 {
+     height: 90px;
+     background-color: #161616;
+}
+
+.Rectangle1 > .page_width > .logo {
+     position: absolute;
+     left: 50px;
+     top: 17px;
+     width: 433px;
+     height: 55px;
+}
+
+.Rectangle1 > .page_width .MainNav {
+     position: absolute;
+     right: 0;
+     top: 15px;
+}
+
+.Rectangle1 > .page_width .MainNav > ul {
+     padding: 0px;
+     margin: 0px;
+}
+.Rectangle1 > .page_width .MainNav > ul > li { 
+     display: inline-block; 
+     color: #fff; 
+     line-height: 55px;
+     margin-left: 30px;
+}
+
+.Rectangle2 {
+     height: 65px;
+}
+
+.Rectangle2 .page_width ul {
+     float: right;
+     margin: 18px 0px 0px 0px;
+     padding: 0px;
+}
+
+.Rectangle2 .page_width ul li {
+     display: inline-block;
+     line-height: 30px;
+     margin-left: 37px;
+}
+
+.Rectangle2 .page_width .CallUs {
+     float: right;
+     width: 240px;
+     margin-left: 50px;
+     line-height: 65px;
+     color: #000;
+     font-weight: bold;
+     font-size: 16px
+}
+
+.home_content {
+     height: 2731px;
+     background-color: #161616;
+     
+     background-image: url("../IMAGES/Welcome/box1.jpg");
+     background-repeat: no-repeat;
+     background-position: center top ;}
+       
+.home_content > .box1 > .page_width {
+     height: 721px; 
+     position: relative; 
+     background-size: 1600px auto;    
+}
+
+.home_content > .box1 > .page_width > .text{
+     position: absolute;
+}
+
+.home_content > .box1 > .page_width > .text h2{
+     /*  Style for "WELCOME TO" */
+     width: 492px;
+     color: #ffffff;
+     font-family: "Sony Sketch EF";
+     font-size: 21px;
+     font-weight: 485;
+     line-height: 30px;
+     text-transform: uppercase;
+     margin-left: 406px;
+     margin-top: 152px;
+}
+
+.home_content > .box1 > .page_width > .text> .row{    
+    margin-top: 40px; 
+}
+
+
+.home_content > .box1 > .page_width > .text> .row > .column {
+    float: left;
+    width: 50%;    
+}
+
+.home_content > .box1 > .page_width > .text> .row:after {
+     content: "";
+     display: table;
+     clear: both;
+   }
+
+   #first {
+        margin: 0px auto auto 130px;
+        color: #fff; 
+        font-size: 72px;
+        font-weight: 450;
+        width: 480px;
+        transform: scaleX(1.2);
+        height: 270px;
+        /* font-family:'Scandia Web Medium', Verdana, Geneva, Tahoma, sans-serif; --- it is an emergency font */
+        font-family: 'scandia medium', 'Helvetica Neue' , sans-serif;
+     }
+
+   #second{
+        color:#fff;
+        font-size: 20px;
+        text-align: center;
+        font-family: Verdana, Tahoma, sans-serif;
+        width: 480px;
+        height: 270px;
+        margin: 0px auto auto 110px;
+        text-align: justify;
+        line-height: 2;
+        padding-top: 18px;
+     }
+
+.home_content > .box1 > .page_width > ul {
+     position: absolute;
+     bottom: 0px;
+     height: 107px;
+     width: 1300px;
+     margin: 0px;
+     padding: 0px;
+     background-color: #000;     
+     box-sizing: border-box; /* include border in width */
+}
+
+.home_content > .box1 > .page_width > ul > li {
+     width: 33%;
+     display: inline-block;
+     line-height: 107px;
+     border-right: 1px solid #212121;
+     box-sizing: border-box;
+     color: #fff;
+     text-align: center;    
+     font-family: 'Futura Lt BT';
+     font-size: 25px;
+     padding-left: 10px;
+}
+
+.home_content > .box1 > .page_width > ul > li img {
+     padding-right: 10px;
+     padding-top: 10px;
+}
+
+.home_content > .box1 > .page_width > ul > li:last-child {
+     border-right: none;
+}
+
+.home_content > .box2 {
+     height: 1159px;     
+}
+
+.home_content > .box2 > .page_width {
+     height: 1159px;   
+     position: relative;
+} 
+
+.home_content > .box2 > .page_width > .fundal{
+     height: 1193px;   
+     width: 1600px;
+     position: absolute;
+     background-image: url("../IMAGES/Fiber Optics/background_DP.png") ; 
+     background-repeat: no-repeat;
+     background-position: center;
+     bottom: -144px;
+     left:-149px;
+     
+} 
+
+.home_content > .box2 > .page_width > .fundal >.text {
+     position: absolute;
+     width:656px;
+     height: 341px;
+     left:250px;
+     top:-45px;
+}
+
+.home_content > .box2 > .page_width > .fundal >.text > h3{
+     color: #cd2129;
+     font-family: "sony sketch ef" ,'Times', 'serif';
+}
+
+.home_content > .box2 > .page_width > .fundal > .text h2 {
+     font-family: 'scandia medium', 'Helvetica Neue' , sans-serif;
+     color: #ffffff; 
+     font-size: 35px;
+}
+
+.home_content > .box2 > .page_width > .fundal > .text p{
+     font-family: "Futura Lt BT", 'Times', 'serif' ;
+     color: #ffffff; 
+     line-height: 30px;
+     font-size: 20px;     
+}
+
+.home_content > .box3 {     
+     position: relative;
+}
+
+.home_content > .box3 > .page_width {
+     height: 847px;
+}
+
+.home_content > .box3 > .page_width > .homephoto  {
+     position: absolute;
+     left: -149px;
+     bottom: -160px;
+     width: 1600px;
+     height: 1000px;
+     background-color: #fff;
+     background-image: url("../IMAGES/Welcome/box3.jpg");
+     z-index: 1;
+}
+
+.home_content > .box3 > .page_width > .homephoto > .text {
+     width: 965px;
+     height: 542px;
+     position: absolute;
+     left: 149px;  
+}
+
+.home_content > .box3 > .page_width > .homephoto > .text > h3 {
+     color: #cd2129;
+     font-family: "sony sketch ef" ,'Times', 'serif';
+     margin: 118px auto auto 110px;
+}
+
+.home_content > .box3 > .page_width > .homephoto > .text > h2{
+     margin: 40px auto  40px 110px;
+     font-family: 'scandia medium', 'Helvetica Neue' , sans-serif;
+     font-size: 35px;
+}
+
+.home_content > .box3 > .page_width > .homephoto > .text > p{
+     font-family: "Futura Lt BT", 'Times', 'serif' ;
+     line-height: 30px;
+     width: 759px;
+     height:180px;
+     margin: auto 91px auto 110px;
+     font-size: 20px;
+}
+
+.box4 {
+     height: 769px;
+     background-color: #f5f5f5;
+     position: relative;
+}
+
+.box4 .page_width .text{
+     position: absolute;
+     height: 613px;
+     width: 1300px;
+     top: 153px;
+}
+
+.box4 .page_width .text h3{
+     color: #cd2129;
+     font-family: "sony sketch ef" ,'Times', 'serif';
+     margin: 118px auto auto auto;
+     text-align: center;
+}
+
+.box4 .page_width .text h2{
+     margin: 40px auto;
+     font-family: 'scandia medium', 'Helvetica Neue' , sans-serif;
+     font-size: 35px;
+     text-align: center;
+}
+
+.box4 .page_width .text p{
+     font-family: "Futura Lt BT", 'Times', 'serif' ;
+     line-height: 30px;
+     width: 759px;
+     height:180px;
+     margin: auto;
+     font-size: 20px;
+     text-align: center;
+}
+ 
+.box4 .page_width .text ul{
+     position: absolute;
+     width: 100%;    
+     margin: 0px;
+     bottom: 140px;
+}
+
+.box4 .page_width .text ul li {
+     display: inline-block;
+     list-style: none;
+     width: 250px;
+     margin-left: 49px;    
+     text-align: center;
+     padding: 10px 0;
+}
+
+.box4 .page_width .text ul li:first-child {
+     margin: 0px;
+     width: initial;
+}
+
+.box4 .page_width .text ul li:last-child {
+     margin-right: 0px;
+     width: initial;
+}
+
+.box5 {
+     height: 675px;
+     background-color: #e8e8e8;
+     border-top: 1px solid #a8a8a8;
+     position: relative;
+}
+
+.box5 .page_width .text {
+     position: absolute;
+     height: 675px;
+     width: 1300px;    
+}
+
+.box5 .page_width .text h3{
+     color: #cd2129;
+     font-family: "sony sketch ef" ,'Times', 'serif';
+     margin: 118px auto auto auto;
+     text-align: center;
+}
+
+.box5 .page_width .text h2 {
+     margin: 40px auto;
+     font-family: 'scandia medium', 'Helvetica Neue' , sans-serif;
+     font-size: 35px;
+     text-align: center;
+}
+
+.box5 .page_width .text p {
+     font-family: "Futura Lt BT", 'Times', 'serif' ;
+     line-height: 30px;
+     width: 759px;
+     height:180px;
+     margin: auto;
+     font-size: 20px;
+     text-align: center;
+}
+
+.box5 .page_width .text ul{
+     position: absolute;
+     width: 100%;
+     margin: 0px;
+     bottom: 140px;
+}
+
+.box5 .page_width .text ul li{
+    display: inline-block;
+    margin-left: 85px;  
+    list-style: none
+}
+
+.box5 .page_width .text ul li:first-child{
+     margin-left: 0px;
+     position: absolute;
+     top: 39px;
+}
+
+.box5 .page_width .text ul li:last-child{
+     margin-right: 0px;
+     position: absolute;
+     top: 39px;
+}
+
+.box6 {
+     height: 950px;
+     background-color: #161616;
+     background-image: url('../IMAGES/Fiber Optics/box6_background.jpg');
+     background-repeat: no-repeat;
+     background-position: center;
+}
+
+.box6 .page_width{
+     height: 950px;
+     position: relative;
+}
+
+.box6 .page_width .text{
+     position: absolute;
+     height: 425px;
+     width: 1300px;
+     top: 0px;
+}
+
+.box6 .page_width .text h3 {
+     color: #cd2129;
+     font-family: "sony sketch ef" ,'Times', 'serif';
+     margin: 118px auto auto auto;
+     text-align: center;
+}
+
+.box6 .page_width .text h2 {
+     margin: 40px auto;
+     font-family: 'scandia medium', 'Helvetica Neue' , sans-serif;
+     font-size: 35px;
+     text-align: center;
+     color: #fff;
+     width: 784px;
+}
+
+.box6 .page_width .text p{
+     font-family: "Futura Lt BT", 'Times', 'serif' ;
+     line-height: 30px;
+     margin: auto;
+     font-size: 20px;
+     text-align: center;
+     width: 784px;
+     color: #ffffff; 
+}
+
+.box6 .page_width .buttons {
+     position: relative;
+     width: 1300px;
+     height: 527px;
+     top: 428px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+
+.box6 .page_width .buttons .button {     
+     width: 631px; 
+     height:414px;     
+}
+
+.box6 > .page_width > .buttons > .button #home {
+     position: absolute;
+     width: 631px;
+     height: 415px;
+     background-image: url("../IMAGES/Fiber Optics/Layer_25.png");
+     background-color: #212121;
+     display: flex; align-items: center ; justify-content: center;
+} 
+
+.box6 > .page_width > .buttons > .button #business{
+     position: absolute;
+     width:631px;
+     height:415px;
+     background-image: url("../IMAGES/Fiber Optics/Layer_26.png");
+     background-color: #212121;
+     right: 0px;
+     display: flex; align-items: center ; justify-content: center;
+}
+
+.box6 > .page_width > .buttons > .button #home button{
+     background-color: #ffffff;
+     text-align: center;
+     font-size: large;
+     font-weight: bold;
+     font-family: 'scandia medium', Arial, Helvetica, serif;
+     color:#c4161c;
+     border-radius: 50px;
+     height: 62px;
+     width: 257px;     
+}
+
+.box6 > .page_width > .buttons > .button #business button{
+     background-color: #ffffff;
+     text-align: center;
+     font-size: large;
+     font-weight: bold;
+     font-family: 'scandia medium', Arial, Helvetica, serif;
+     color:#c4161c;
+     border-radius: 50px;
+     height: 62px;
+     width: 257px;
+}
+
+.box7 {
+     height: 675px;
+     background-color: #212121;
+}
+
+.box7 .page_width {
+     height: 675px;
+     position: relative;
+     width: 1200px;
+}
+
+.box7 .page_width .text {
+     position: relative;
+     width: 1200px;
+     height: 357px;
+}
+
+.box7 .page_width .text h3{
+     color: #cd2129;
+     font-family: "sony sketch ef" ,'Times', 'serif';
+     padding-top: 118px;
+     text-align: center;
+     margin: 0px;
+}
+
+.box7 .page_width .text h2{
+     margin: 40px auto;
+     font-family: 'scandia medium', 'Helvetica Neue' , sans-serif;
+     font-size: 35px;
+     text-align: center;
+     color: #fff;
+     width: 784px;
+}
+
+.box7 .page_width .text p{
+     font-family: "Futura Lt BT", 'Times', 'serif' ;
+     line-height: 30px;
+     margin: auto;
+     font-size: 20px;
+     text-align: center;
+     width: 784px;
+     color: #ffffff;    
+}
+
+.box7 .page_width ul{
+     position: absolute;
+     margin-top: 0px;
+     margin-bottom: 0px;   
+     display: flex;
+     width: 1200px;
+     justify-content: space-around;
+}
+
+.box7 .page_width ul li{
+     list-style: none;
+}
+
+.box8 {
+     height: 2837px;
+     background-color: #e8e8e8;
+}
+
+.box8 .page_width .text {
+     height:551px;
+     width: 1300px;
+     /* position: relative; */
+    
+}
+
+.box8 .page_width .text h3{
+     color: #cd2129;
+     font-family: "sony sketch ef" ,'Times', 'serif';
+     padding-top: 118px;
+     text-align: center;
+     margin: 0px;
+}
+
+.box8 .page_width .text h2 {
+     margin: 40px auto;
+     font-family: 'scandia medium', 'Helvetica Neue' , sans-serif;
+     font-size: 35px;
+     text-align: center;
+     color: #161616;
+     width: 784px;
+}
+
+.box8 .page_width .text button {
+     background-color: #ffffff;
+     text-align: center;
+     font-size: large;
+     font-weight: bold;
+     font-family: 'scandia medium', Arial, Helvetica, serif;
+     color:#c4161c;
+     border-radius: 50px;
+     height: 62px;
+     width: 257px;
+     left: 530px;
+     top: 50px;
+     position: relative;
+}
+
+.box8 .page_width .text p{
+     font-family: "Futura Lt BT", 'Times', 'serif' ;
+     line-height: 30px;
+     margin: auto;
+     font-size: 20px;
+     text-align: center;
+     width: 784px;
+     color: #161616; 
+}
+
+.box8 .page_width .column-container {
+     column-count:3; 
+    
+}
+
+.box8 .page_width .column-container div {
+     margin-bottom: 15px;
+     /* border: 1px solid rgba(0, 0, 0, 0.8); */
+     text-align: center;
+     background: rgba(255, 255, 255);
+     height: auto;
+     display: inline-block;
+}
+
+.box8 .page_width .column-container div img{
+     width: 100%;
+}
+
+.box8 .page_width .column-container .text-interior {
+     padding: 25px;
+     }
+
+.box8 .page_width .column-container h2{
+     font-family: 'scandia medium', 'Helvetica Neue' , sans-serif;
+     font-size: 35px;
+     text-align: center;
+     color: #161616;    
+}
+
+.box8 .page_width .column-container h3{
+     font-family: 'scandia medium', Arial, Helvetica, serif;
+     color:#c4161c;
+     font-weight: lighter;
+}
+
+.box8 .page_width .column-container p{
+     font-family: "Futura Lt BT", 'Times', 'serif' ;
+     line-height: 30px;
+     margin: auto;
+     font-size: 20px;
+     text-align: center;
+     color: #161616; 
+}
+ 
+.box8 .page_width #grad{
+     /* background-color: #e8e8e8; */
+     width: 1300px;
+     height: 784px;
+     position: absolute;
+     bottom: 493px;
+     /* background-image: linear-gradient( rgba(232,232,232,0), rgba(232,232,232,1)); */
+     background: linear-gradient(rgba(255,255,255,0) 10%, rgb(232, 232, 232) 83%);
+}
+
+.box8 .page_width .support {
+     background-image: url('../IMAGES/Succes Stories/help.jpg');
+     width: 1600px;
+     height: 793px;
+     position: absolute;
+     left: -149px;
+     bottom: -300px;
+}
+
+.box8 .page_width .support .text-support {
+     width: 785px;
+     height: 390px;
+     background-color: rgba(255,255,255,0.6);
+     right: 0px;
+     top: 133px;
+     position: absolute;
+}
+
+.box8 .page_width .support .text-support h2 {
+     font-family: 'scandia medium', 'Helvetica Neue' , sans-serif;
+     font-size: 35px;
+     margin: 90px auto 45px 96px;
+     color: #161616; 
+     transform: scaleX(1.06);
+}
+
+.box8 .page_width .support .text-support ul {
+     display: inline-block;
+     color: #923235;
+     list-style-type: none;
+     width: 150px;
+     height: 132px;
+     line-height: 21px;
+     left: 80px;
+     position: relative;
+     margin-top: 0px;
+}
+
+.box8 .page_width .support .text-support ul:last-child{
+     margin-left: 70px;
+}
+
+.box8 .page_width .support .text-support li {
+     height: 40px;
+     font-family: "Futura Lt BT", 'Times', 'serif' ;
+     font-weight: bolder;
+}
+
+.box9 {
+     height: 1082px;
+     background-color: #161616;
+     background-image: url('../IMAGES/Footer/background_1.jpg');
+     background-repeat: no-repeat;
+     background-position: center;
+}
+
+.box9 .page_width{
+     height: 100%;
+}
+
+.box9 .page_width .call {
+     position: absolute;
+     top: 203px;
+     height: 107px;
+     width: 100%;
+     margin: 0px;
+     padding: 0px;
+     background-color: #000;     
+     box-sizing: border-box;
+}
+
+.box9 .page_width .call li {
+     width: 33%;
+     display: inline-block;
+     line-height: 107px;
+     border-right: 1px solid #212121;
+     box-sizing: border-box;
+     color: #fff;
+     text-align: center;    
+     font-family: 'Futura Lt BT';
+     font-size: 25px;
+     padding-left: 10px;
+}
+
+.box9 .page_width .call li img{
+     padding-right: 10px;
+     padding-top: 10px;
+
+}
+
+.box9 .page_width .call li:last-child{
+     border-right: none;
+}
+
+.box9 .page_width #final_list {
+     position: relative;
+     top: 358px;       
+}
+
+.box9 .page_width .lists {
+     display:flex;
+     float: right;
+     color: #e8e8e8;
+     font-family: 'scandia medium', 'Helvetica Neue' , sans-serif;
+     width: 1004px;
+     height: 504px;
+     font-weight: 800;
+}
+
+.box9 .page_width .lists ul {
+     flex-grow: 1;
+     margin: 0px;
+     list-style: none;   
+}
+
+.box9 .page_width .lists ul .head {     
+     color: #bebebe;
+     line-height: 25px;
+     margin-top: 62px;    
+}
+
+.box9 .page_width .lists ul  .head .base{     
+     margin-top: 15px;
+     font-weight: initial;
+}
+
+.box9 .page_width #final_list::after {
+     content: "";
+     clear: both;
+     display: table;
+}   
+                    
+.box9 .page_width .lists  #last_child li {
+     margin-top: 62px;
+}
+  
+.box9 .page_width .lists  #last_child li:nth-child(2), .box9 .page_width .lists  #last_child li:nth-child(3) {
+        margin-top: 35px;
+}
+
+
+.fa {
+     padding: 10px;
+     font-size: 20px;
+     width: 20px;
+     text-align: center;
+     text-decoration: none;
+     margin: 5px 2px;
+     border-radius:15%;
+}
+   
+.fa:hover {
+     opacity: 0.7;
+}
+ 
+.fa-facebook {
+   background: #3B5998;
+   color: white;
+}
+ 
+ .fa-twitter {
+   background: #55ACEE;
+   color: white;
+ }
+
+ .fa-linkedin {
+     background: #007bb5;
+     color: white;
+   }
+   
+   .fa-youtube {
+     background: #bb0000;
+     color: white;
+   }
+   
+   .box9 .page_width footer {
+     color:#bebebe;
+     position: relative;
+     top: 400px;
+     text-align: center;
+     font-family: 'Futura Lt BT';
+}
+
+   .box9 .page_width hr{
+     position: relative;
+     top: 350px;
+     border: 1px solid  #212121;
+   }
+ 
+  
