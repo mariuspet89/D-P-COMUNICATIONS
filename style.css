@@ -565,9 +565,7 @@
 
 .box8 .page_width .text {
      height:551px;
-     width: 1300px;
-     /* position: relative; */
-    
+     width: 1300px;   
 }
 
 .box8 .page_width .text h3{
@@ -618,8 +616,7 @@
 }
 
 .box8 .page_width .column-container div {
-     margin-bottom: 15px;
-     /* border: 1px solid rgba(0, 0, 0, 0.8); */
+     margin-bottom: 15px;   
      text-align: center;
      background: rgba(255, 255, 255);
      height: auto;
@@ -800,7 +797,8 @@
      margin-top: 62px;
 }
   
-.box9 .page_width .lists  #last_child li:nth-child(2), .box9 .page_width .lists  #last_child li:nth-child(3) {
+.box9 .page_width .lists  #last_child li:nth-child(2), 
+.box9 .page_width .lists  #last_child li:nth-child(3) {
         margin-top: 35px;
 }
 
