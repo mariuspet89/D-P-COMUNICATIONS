@@ -656,13 +656,11 @@
      color: #161616; 
 }
  
-.box8 .page_width #grad{
-     /* background-color: #e8e8e8; */
+.box8 .page_width #grad{    
      width: 1300px;
      height: 784px;
      position: absolute;
      bottom: 493px;
-     /* background-image: linear-gradient( rgba(232,232,232,0), rgba(232,232,232,1)); */
      background: linear-gradient(rgba(255,255,255,0) 10%, rgb(232, 232, 232) 83%);
 }
 
